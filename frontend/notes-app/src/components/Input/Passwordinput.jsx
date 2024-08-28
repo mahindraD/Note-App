@@ -30,7 +30,6 @@ const Passwordinput = ({ value, onChange, placeholder}) => {
                 onClick={()=> toggleShowPassword()}
                 />  
             }
-            
         </div>
     )
 }

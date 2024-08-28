@@ -316,6 +316,8 @@ app.put("/search-notes",authenticationToken,async(req,res)=>{
     }
 });
 
-app.listen(8000);
+app.listen(8000,()=>{
+    console.log("server is listening to port 8000");
+});
 
 module.exports = app;

@@ -77,10 +77,7 @@ const AddEditNotes = ({ noteData, type, onClose, getAllNotes, showToastMessage }
         else{
             addNewNote();
         }
-
     }
-
-
 
   return (
     <div className='relative'>

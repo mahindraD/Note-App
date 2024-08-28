@@ -15,7 +15,6 @@ const routes = (
   </Router>
 );
 
-
 const App = () => {
     return (
         <div>
