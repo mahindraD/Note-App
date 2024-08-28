@@ -12,8 +12,6 @@ const Toast = ({ isShown, message, type, onClose}) => {
       clearTimeout(timeoutId);
     }
   }, [onClose])
-  
-  
 
   return (
     <div 
